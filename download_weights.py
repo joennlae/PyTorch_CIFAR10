@@ -31,3 +31,7 @@ def download_weights():
     with zipfile.ZipFile(path_to_zip_file, "r") as zip_ref:
         zip_ref.extractall(directory_to_extract_to)
         print("Unzip file successful!")
+
+
+if __name__ == "__main__":
+    download_weights()
